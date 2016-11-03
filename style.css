@@ -1,0 +1,143 @@
+/*
+Theme Name: Thema van Bas
+Theme URI: http://21248.hosts.ma-cloud.nl/bewijzenmap/leerjaar2/periode1/FOP/Dummy/dummy.html
+Author: Bas Vugts
+Author URI: http://wordpress.org/
+Description: oefenen met thema
+Version: 1.0
+License: vrij
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: basic
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html, body {
+    background-color: black;
+    font-family: sans-serif;
+}
+body{
+   margin-top: 5%; 
+}
+
+#banner {
+    margin-top: -5%;
+    width: 100%;
+    overflow: hidden;
+    height: 10em;
+    margin-bottom: 2%;
+}
+
+#banner img {
+    width: 100%;
+    
+}
+h1 a {
+    text-decoration: none;
+    color: white;  
+}
+
+h1 a:hover {
+    text-decoration: underline;
+    
+}
+
+h1, p {
+    color: white;
+    margin-left: 5%;
+}
+
+#hoofdtitel {
+    font-size: 30px;
+    float: left;
+    margin-left: 5%;
+}
+
+/*navigation menu*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin-right: 22%;
+}
+
+nav ul.menu>li {
+    float: right;
+}
+
+nav ul li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+nav ul li.dropdown {
+    display: inline-block;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+}
+
+nav .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+nav .dropdown-content a:hover {background-color: black}
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*rechts*/
+
+.lijntje {
+    border-top: 4px solid white;
+    padding-top: 1em;
+    width: 80%;
+}
+input {
+    margin-bottom: 5em;
+}
+
+#berichten, #reacties, #archief {
+    border-top: 4px solid white;
+    padding-top: 1em;
+    width: 80%;
+}
+
+#rechts {
+    margin-left: 60%;
+    margin-top: -7%;
+}
+
+#rechts li{
+    color:deepskyblue;
+}
+
+#rechts h3 {
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+footer {
+float: right;
+margin-top: 10%}
