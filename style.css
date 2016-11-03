@@ -30,8 +30,7 @@ body{
 }
 
 #banner img {
-    width: 100%;
-    
+    width: 100%;  
 }
 h1 a {
     text-decoration: none;
@@ -39,8 +38,7 @@ h1 a {
 }
 
 h1 a:hover {
-    text-decoration: underline;
-    
+    text-decoration: underline; 
 }
 
 h1, p {
@@ -64,7 +62,7 @@ nav ul {
     margin-right: 22%;
 }
 
-nav ul.menu>li {
+nav ul li {
     float: right;
 }
 
